@@ -11,7 +11,7 @@ st.header(' Flower Classification using CNN ')
 flower_names = ['daisy', 'dandelion', 'rose', 'sunflower', 'tulip']
 
 # Load the trained model
-model_path = r'Flower_Recog_Model.h5'
+model_path = r'Flower_Recog_Model.keras'
 model = load_model(model_path)
 
 # Classification function
